@@ -17,12 +17,12 @@
 ## Clone Project
 - Using https:
 ```bash
-git clone https://gitlab.com/metcorp/animo/digital-order-cms.git folder-name
+git clone https://gitlab.com/metcorp/cbn/online-assessment/cms.git folder-name
 ```
 
 - Using ssh:
 ```bash
-git clone git@gitlab.com:metcorp/animo/digital-order-cms.git folder-name
+git clone git@gitlab.com:metcorp/cbn/online-assessment/cms.git folder-name
 ```
 
 ## Installation
