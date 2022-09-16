@@ -17,28 +17,18 @@
 ## Clone Project
 - Using https:
 ```bash
-git clone https://gitlab.com/metcorp/cbn/online-assessment/cms.git folder-name
+git clone https://github.com/mugnirusmana/blog-test.git folder-name
 ```
 
 - Using ssh:
 ```bash
-git clone git@gitlab.com:metcorp/cbn/online-assessment/cms.git folder-name
+git clone git@github.com:mugnirusmana/blog-test.git folder-name
 ```
 
 ## Installation
 - Go directory:
 ```bash
 cd folder-name
-```
-
-- Checkout to development:
-```bash
-git checkout development
-```
-
-- Pull development:
-```bash
-git pull origin development
 ```
 
 - Install all depedencies:
@@ -51,6 +41,11 @@ yarn
 yarn install
 ```
 
+- or:
+```bash
+npm install
+```
+
 *If you don't have yarn on your device try to follow [this](https://classic.yarnpkg.com/en/docs/install)* 
 
 ## Running The Project
@@ -58,11 +53,13 @@ yarn install
 ```bash
 yarn start
 ```
+```or
+npm start
+```
 - Alternative for reset the cache:
 ```bash
 yarn start --reset-cache
 ```
-
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
